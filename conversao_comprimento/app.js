@@ -26,6 +26,8 @@
 
 		calculo(valores)
 
+		return valores
+
 	}
 
 	function calculo(valores){
@@ -182,7 +184,7 @@
 
 			calculo = valores.valor1 * Math.pow(10, -4)
 
-			valores.resultado.innerHTML = 'É igual a ' + calculo + ' ' + valores.campo2
+			valores.resultado.innerHTML = 'É igual a ' + calculo.toFixed(4) + ' ' + valores.campo2
 			
 		}
 
@@ -249,7 +251,7 @@
 
 			calculo = valores.valor1 * Math.pow(10, -5)
 
-			valores.resultado.innerHTML = 'É igual a ' + calculo + ' ' + valores.campo2
+			valores.resultado.innerHTML = 'É igual a ' + calculo.toFixed(5) + ' ' + valores.campo2
 			
 		}
 
@@ -404,7 +406,7 @@
 
 			calculo = valores.valor1 * Math.pow(10, -5)
 
-			valores.resultado.innerHTML = 'É igual a ' + calculo + ' ' + valores.campo2
+			valores.resultado.innerHTML = 'É igual a ' + calculo.toFixed(5) + ' ' + valores.campo2
 			
 		}
 		else
@@ -413,7 +415,7 @@
 
 			calculo = valores.valor1 * Math.pow(10, -4)
 
-			valores.resultado.innerHTML = 'É igual a ' + calculo + ' ' + valores.campo2
+			valores.resultado.innerHTML = 'É igual a ' + calculo.toFixed(4) + ' ' + valores.campo2
 			
 		}
 
@@ -568,7 +570,7 @@
 
 			calculo = valores.valor1 * Math.pow(10, -4)
 
-			valores.resultado.innerHTML = 'É igual a ' + calculo + ' ' + valores.campo2
+			valores.resultado.innerHTML = 'É igual a ' + calculo.toFixed(4) + ' ' + valores.campo2
 			
 		}
 		
@@ -582,7 +584,19 @@
 			
 		}
 
-		console.log(valores)
+	}
+
+	function converterselect(){
+
+		let valores = this.calcularcomprimento()
+
+		if (valores.campo1 != valores.campo2) {
+
+			document.getElementById('campo1').value = valores.campo2
+
+			document.getElementById('campo2').value = valores.campo1
+
+		}
 
 	}
 	
