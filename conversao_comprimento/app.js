@@ -1,4 +1,8 @@
 
+	$(function() {
+		$('#valor1').attr('value', 1)
+	})
+
 	class Valores{
 
 	constructor(campo1, campo2, resultado, valor1){
