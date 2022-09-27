@@ -31,8 +31,4 @@
 
 		elemento2.className = cor()
 
-		}, 7000)
-
-	
-
-	
+		}, 4000)
