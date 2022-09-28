@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="shortcut icon" type="image/png" href="../imagens/meu_logo.png">
+
+</head>
+<body>
+    <h1>Clima</h1>
+
+    <form class="busca">
+        <input type="search" id="searchInput" placeholder="Digite a cidade:" />
+        <button>Buscar</button>
+    </form>
+
+    <div class="resultado">
+        <div class="titulo">--</div>
+
+        <div class="info">
+            <div class="temp">
+                <div class="tempTitulo">Temperatura</div>
+                <div class="tempInfo">-- <sup>ºC</sup></div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+            </div>
+            <div class="vento">
+                <div class="ventoTitulo">Vento</div>
+                <div class="ventoInfo">-- <span>km/h</span></div>
+                <div class="ventoArea">
+                    <div class="ventoPonto" style="transform: rotate(0deg)"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="aviso"></div>
+
+    <script src="script.js"></script>
+
+    <footer class="fixed-bottom">
+    <div class="container-fluid text-light">
+    <div class="row d-flex justify-content-center">
+        <h6>Desenvolvido por &copy; Pedro Ivo </h6> 
+        <a href="https://www.linkedin.com/in/pedro-ivo-da-silva-746263235/" target="_blank">
+        <img src="../imagens/icons8-linkedin-circundado-48.png" alt="facebook" width="40" height="35">
+        </a>
+        <a href="https://github.com/pedrok89" target="_blank">
+        <img src="../imagens/icons8-github-50.png" alt="facebook" width="40" height="35">
+        </a>
+        <a href="https://www.facebook.com/pedro.ivo.501151/" target="_blank">
+        <img src="../imagens/icons8-facebook-novo-48.png" alt="facebook" width="40" height="35">
+        </a>
+    </div>
+    </div>
+    </div>
+  </footer>
+
+</body>
+</html>
