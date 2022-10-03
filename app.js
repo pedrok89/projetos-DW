@@ -1,4 +1,10 @@
 
+	function info1() {
+
+		alert('Em breve...')
+
+	}
+
 	function cor(){
 
 	let aleatoriedade = Math.floor(Math.random() * 3)

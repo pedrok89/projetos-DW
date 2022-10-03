@@ -5,7 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Projetos</title>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href='CSS/estilo.css'>
+        <link rel="shortcut icon" href="Imagens\logopedro.jpg">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<link rel="stylesheet" type="text/css" href="css.css">
 
@@ -19,10 +21,34 @@
 
 <body>
 
+	<nav class="navbar navbar-light bg-dark">
+
+          <a class="navbar-brand" href="#"><img class="rounded-circle" src="foto.jpg" height="50px" width="50px"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" style="color: white;" href="#">Inicio <span class="sr-only">(página atual)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                  Cursos e Certificados
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a onclick="info1()" target="_blank" class="dropdown-item" >Desenvolvimento Web</a>
+                  <a onclick="info1()" class="dropdown-item" href="#">Programação e Algoritmos, Java</a>
+                </div>
+              </li>
+          </div>
+        </nav>
 	<br>
+
 	<center>
 	<audio style="width: 145px; height: 30px;" src="audio.m4a" controls>
-	<p>Seu Browser não tem suporte a tag audio</p>
+	<p>Seu browser não tem a compatibilidade de audio</p>
 	</audio>
 	</center>
 
@@ -30,6 +56,7 @@
 
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   	<div class="carousel-inner">
+
     <div class="carousel-item active">
 
    <h2 class="row d-flex justify-content-center text-light" id="mudanca">Projetos JavaScript</h2>
@@ -224,7 +251,11 @@
 
 	<center>	
 	<h5 class="cores" id="project"> Mais projetos em breve</h5>
-	</center>
+	</center>]
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	
 	<footer class="fixed-bottom">
 	<div class="container-fluid text-light">
