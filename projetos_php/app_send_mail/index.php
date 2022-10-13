@@ -9,6 +9,9 @@
 
     	<link rel="shortcut icon" type="image/png" href="meu_logo.png">
 
+    	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5968126729205451"
+     crossorigin="anonymous"></script>
+
 	</head>
 
 	<body>
@@ -25,7 +28,7 @@
       			<div class="col-md-12">
   				
 					<div class="card-body font-weight-bold">
-						<form action="processa.php" method="post">
+						<form action="processa_envio.php" method="post">
 							<div class="form-group">
 								<label for="para" class="cores">Para</label>
 								<input name="para" type="text" class="form-control" id="para" placeholder="joao@dominio.com.br">

@@ -11,6 +11,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>App Lista Tarefas</title>
 
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5968126729205451"
+     crossorigin="anonymous"></script>
+
 		<link rel="stylesheet" href="css/estilo.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -106,7 +109,7 @@
 								<h4>Tarefas pendentes</h4>
 								<hr />
 
-								<? foreach($tarefas as $indice => $tarefa) { ?>
+								<?php foreach($tarefas as $indice => $tarefa) { ?>
 									<div class="row mb-3 d-flex align-items-center tarefa">
 										<div class="col-sm-9" id="tarefa_<?= $tarefa->id ?>">
 											<?= $tarefa->tarefa ?>
@@ -118,7 +121,7 @@
 										</div>
 									</div>
 
-								<? } ?>
+								<?php } ?>
 							</div>
 						</div>
 					</div>

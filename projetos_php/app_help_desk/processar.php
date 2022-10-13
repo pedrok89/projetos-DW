@@ -23,8 +23,6 @@
 
 	if ($usuario_autenticado) {
 
-		echo "Usuário Autenticado";
-
 		$_SESSION['autenticado'] = 'SIM';
 
 		header('Location: home.php');

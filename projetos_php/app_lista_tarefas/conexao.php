@@ -2,10 +2,10 @@
 
 class Conexao {
 
-	private $host = 'sql307.epizy.com';
-	private $dbname = 'epiz_32135987_web2';
-	private $user = 'epiz_32135987';
-	private $pass = '';
+	private $host = 'localhost';
+	private $dbname = 'id16530045_php_oo';
+	private $user = 'id16530045_pedro_ivo';
+	private $pass = 'R1!AIl/xMN5g&+WK';
 
 	public function conectar() {
 		try {
@@ -17,7 +17,6 @@ class Conexao {
 			);
 
 			return $conexao;
-
 
 		} catch (PDOException $e) {
 			echo '<p>'.$e->getMessege().'</p>';

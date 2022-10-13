@@ -10,6 +10,9 @@
 
     <link rel="shortcut icon" type="image/png" href="meu_logo.png">
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5968126729205451"
+     crossorigin="anonymous"></script>
+
     <style>
       .card-login {
         padding: 30px 0 0 0;
